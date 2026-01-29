@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 import pandas as pd
 import numpy as np
-from drift_calculation import drift_pipeline
+from backend.drift_calculation import drift_pipeline
 
 app=FastAPI()
 
